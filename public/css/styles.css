@@ -1,12 +1,80 @@
-.header{
-    margin: 0 10% ;
+/* /////////////////////////////
+/* //////// Text ///////// */
+
+body, footer {
+  font-family: 'Montserrat', sans-serif;
+  font-family: "texgyreadventorregular", arial, helvetica;
 }
 
-#header_logo{
-    width: 40%;
-    margin: 30px 0;
+footer{
+    font-size: 15px;
 }
 
-.bottom{
-    color: #fff;
+/* body{
+  background-color: #cfdac8;
+} */
+
+/* /////////////////////////////
+/* //////// Header ///////// */
+.header {
+  margin: 0 10%;
+}
+
+#header_logo {
+  width: 40%;
+  margin: 30px 0;
+}
+
+/* /////////////////////////////
+/* //////// Navbar ///////// */
+
+.navbar2 {
+  padding: 0;
+  background-color: #212529;
+
+}
+
+.nav-link2{
+  padding: 10px 0 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* change the link color */
+.row{
+  background-color: #212529;
+}
+
+.row a {
+  text-align: center;
+}
+.nav2_row {
+  text-decoration: none;
+  display: inline-block;
+  border-right: 1px solid #fff;
+  color: #fff;
+
+}
+
+.nav2_row:hover {
+    text-decoration:none;
+    color: #cdd0cb;
+    background-color: #7c9473;
+    opacity: 1;
+}
+
+/* /////////////////////////////
+/* //////// Footer ///////// */
+
+.footer_website {
+  background-color: #212529;
+  margin: 0 10%;
+  height: 40px;
+}
+
+.footer_website p {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 10px;
 }
