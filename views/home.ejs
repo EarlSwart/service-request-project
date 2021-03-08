@@ -1,2 +1,90 @@
 <%- include("partials/header") -%>
-<%- include("partials/footer") -%>
+
+    <!-- Forms and Inputs -->
+    <section class="fill">
+        <div class="container">
+            <h1>SERVICE REQUEST</h1>
+            <h3>1. Service</h3>
+            <div class="info">
+                <i class="fas fa-exclamation-circle"></i>
+                <p>What is the nature of your request?</p>
+            </div>
+            <div class="custom-select">
+                <p>Group:</p>
+                <select>
+                    <option value="0">Select Group:</option>
+                    <option value="1">Electricity</option>
+                    <option value="2">Sewer</option>
+                    <option value="3">Traffic</option>
+                    <option value="4">Water</option>
+                </select>
+                <p>Service:</p>
+                <select>
+                    <option value="0">Select Service:</option>
+                    <option value="1">Electricity</option>
+                    <option value="2">Sewer</option>
+                    <option value="3">Traffic</option>
+                    <option value="4">Water</option>
+                </select>
+            </div>
+
+            <h3>2. Description</h3>
+            <div class="info">
+                <i class="fab fa-wpforms"></i>
+                <p>Describe your requested service, issue or complaint.</p>
+            </div>
+            <div class="custom-select">
+                <p>Describe Request:</p>
+                <textarea class="description" name="description" id=""></textarea>
+            </div>
+
+            <h3>3. Address</h3>
+            <div class="info">
+                <i class="fas fa-location-arrow"></i>
+                <p>Tell us where in the city the requested service is required (or issue is located).</p>
+            </div>
+            <div class="custom-select">
+                <p>Street No:</p>
+                <input type="text" class="street-number" name="streetNumber">
+                <p>Street Name:</p>
+                <input type="text" class="street-name" name="streetName">
+                <p>Town:</p>
+                <select class="town">
+                    <option value="0">Select Town:</option>
+                    <option value="1">Albertinia</option>
+                    <option value="2">Gouritz</option>
+                    <option value="3">Heidelberg</option>
+                    <option value="4">Slangrivier</option>
+                    <option value="5">Still Bay</option>
+                    <option value="6">Riversdale</option>
+                    <option value="7">Witsand</option>
+                </select>
+            </div>
+
+            <h3>3. Contact Details</h3>
+            <div class="info">
+                <i class="fas fa-id-card"></i>
+                <p>Contact Details.</p>
+            </div>
+            <div class="custom-select">
+                <p>First Name:</p>
+                <input type="text" name="fName">
+                <p>Surname:</p>
+                <input type="text" class="" name="sName">
+                <p>Phone:</p>
+                <input type="text" class="" name="phone">
+                <p>Email:</p>
+                <input type="text" class="" name="email">
+            </div>
+            <div class="submit">
+                <button type="submit" class="submit-btn"><span>Submit</span></button>          
+            </div>
+           
+        </div>
+
+
+    </section>
+
+
+
+    <%- include("partials/footer") -%>
